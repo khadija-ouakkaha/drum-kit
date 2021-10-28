@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Drum Kit</title>
+  </head>
+  <body>
+    <h1>Drum kit</h1>
+    <div class="container">
+      <img src="./img/drum_kit.jpg" alt="" />
+      <div class="content">
+        <div class="key-mapping" id="key-mapping">
+          <h2>Key Mapping</h2>
+          <div class="buttons">
+            <div><button data-button= "65" class = 'btn'>A</button><span> Cash</span></div>
+            <div><button data-button = "83" class = 'btn'>S</button> <span>Ride</span></div>
+            <div><button data-button = "68" class = 'btn'>D</button> <span>Floor tom</span></div>
+            <div><button data-button = "70" class = 'btn'>F</button><span> Mid Tom</span></div>
+            <div><button data-button = "71" class = 'btn'>G</button><span> High Tom</span></div>
+            <div><button data-button = "72" class = 'btn'>H</button> <span>Kick</span></div>
+            <div><button data-button = "74" class = 'btn'>J</button><span> Anare</span></div>
+            <div><button data-button = "75" class = 'btn'>K</button> <span>Hi-Hat Open</span></div>
+            <di><button data-button = "76" class = 'btn'>L</button> <span>Hi-Hat Closed</span></di>
+          <div>
+        </div>
+      </div>
+    </div>
+    <div class="audio">
+    <audio data-audio = "65" src="./sound/1.wav"></audio>
+    <audio data-audio = "83" src="./sound/2.wav"></audio>
+    <audio data-audio = "68" src="./sound/3.wav"></audio>
+    <audio data-audio = "70" src="./sound/4.wav"></audio>
+    <audio data-audio = "71" src="./sound/5.wav"></audio>
+    <audio data-audio = "72" src="./sound/6.wav"></audio>
+    <audio data-audio = "74" src="./sound/7.mp3"></audio>
+    <audio data-audio = "75" src="./sound/8.mp3"></audio>
+    <audio data-audio = "76" src="./sound/9.mp3"></audio>
+  </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
