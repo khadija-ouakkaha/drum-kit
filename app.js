@@ -24,9 +24,8 @@ function clickPopup(e) {
     Audio.outerHtml !== `data-audio= "window.keyCode"`
   ) {
     this.classList.add('popup')
-    Audio.forEach((aud) => {
-      aud.play()
-    })
+    let num = e.target.getAttribute('data-button')
+    document.querySelector(`audio[data-audio ="${num}"]`).play()
   } else {
     console.log(audio)
   }
